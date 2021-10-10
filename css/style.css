@@ -36,6 +36,10 @@
 
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 ul{
     list-style: none;
 
@@ -47,6 +51,8 @@ a{
 img{
     vertical-align: middle;
 }
+
+
 
 
 .play{
@@ -100,21 +106,56 @@ img{
 
 
 
-
-
-
-
-
-
 /* =====================-->>> 
    common css ends 
 ========================-->>>>> */
+
+
 nav{
     background: var(--backcol);
     position: absolute;
     top: 0;
     left: 0;
     z-index: 9999;
+    transition: all ease-in-out 0.6s;
+}
+
+
+nav .navbar-toggler{
+    color: var(--buttoncol-3) !important;
+   
+    
+    
+}
+nav .toggler-icon{
+    color: var(--buttoncol-4);
+    font-size: 30px;
+   
+  
+   
+}
+
+
+
+
+
+.sticky{
+    width: 100%;
+   box-shadow: 4px 10px 20px var(--fontshadow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+
+}
+
+.sticky .navbar-brand img{
+    width: 95% !important;
+    transition: all ease-in-out 0.6s;
+    -webkit-transition: all ease-in-out 0.6s;
+    -moz-transition: all ease-in-out 0.6s;
+    -ms-transition: all ease-in-out 0.6s;
+    -o-transition: all ease-in-out 0.6s;
 }
 
 
@@ -281,6 +322,20 @@ nav .btn2:hover{
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
 }
+
+#games .counter1{
+    clip-path: polygon(0 11%, 100% 6%, 100% 94%, 0 92%);
+}
+
+#games .counter2{
+    clip-path: polygon(0 6%, 100% 3%, 100% 97%, 0 94%);
+}
+
+#games .counter3{
+    clip-path: polygon(0 3%, 100% 0, 100% 100%, 0 97%);
+}
+
+
 
 #games .game-counter h2{
     font-size: 50px;
@@ -530,7 +585,7 @@ nav .btn2:hover{
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    padding:15px 144px !important;
+    padding:15px 68px !important;
     background:var(--gradient-1);
    
    
@@ -632,6 +687,8 @@ nav .btn2:hover{
     -moz-transition: all ease-in-out 0.6s;
     -ms-transition: all ease-in-out 0.6s;
     -o-transition: all ease-in-out 0.6s;
+    cursor: pointer;
+    
 }
 
 #faq .faqs.active{
@@ -644,6 +701,7 @@ nav .btn2:hover{
     font-size: 20px;
     padding-bottom: 25px; 
     position: relative;
+    padding-right: 20px;
     
 }
 
@@ -699,7 +757,7 @@ nav .btn2:hover{
 }
 
 #faq .tournaments-text .time .counter{
-    margin-left: 46px;
+    margin-left: 35px;
     transform: translateY(-15px);
     -webkit-transform: translateY(-15px);
     -moz-transform: translateY(-15px);
@@ -710,6 +768,7 @@ nav .btn2:hover{
 
 #faq .tournaments-text .time li .getting-started{
     display: flex;
+
 }
 
 #faq .tournaments-text .time li .getting-started .single-counter{
@@ -721,7 +780,7 @@ nav .btn2:hover{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -999,6 +1058,37 @@ nav .btn2:hover{
 
 
 
+
+/* =====================-->>> 
+  footer css ends 
+========================-->>>>> */
+
+
+
+.back-to{
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    background: var(--gradient-2);
+    color: var(--buttoncol-1);
+    z-index: 99999;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: var(--boxshadow-2);
+    display: none;
+}
+
+.back-to i{
+    line-height: 60px;
+    font-size: 40px;
+       
+}
 
 /* =====================-->>> 
   footer css ends 

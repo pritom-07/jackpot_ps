@@ -12,10 +12,15 @@
     <link rel="stylesheet" href="css/all.min.css">
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
-  
+    <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- slick slider css -->
     <link rel="stylesheet" href="css/slick.css">
+    <!-- common css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
 
 <body>
@@ -25,7 +30,9 @@
         <div class="container">
           <a class="navbar-brand p-0 m-0" href="#"><img src="images/nav-logo.png" alt="nav-logo" class="img-fluid w-100" ></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span><i class="toggler-icon fas fa-bars"></i></span>
+            
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -47,8 +54,8 @@
               
             </ul>
            
-              <a class="btn1  text-capitalize text-white">signup</a>
-              <a class="btn2  text-capitalize text-white" >login</a>
+              <a class="btn1  text-capitalize text-white" href="#">signup</a>
+              <a class="btn2  text-capitalize text-white" href="#" >login</a>
             
           </div>
         </div>
@@ -64,7 +71,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 ms-auto">
-            <div class="banner-text text-white text-start">
+            <div class="banner-text text-white text-center text-lg-start ">
               <h6 class="text-capitalize m-0 p-0">today's jackpot</h6>
               <h1 class="count m-0 p-0">777</h1>
               <p  class="m-0 p-0 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
@@ -86,14 +93,14 @@
   <div class="container ">
     <div class="row g-0">
       <div class="col-lg-4">
-        <div class="game-counter text-center">
+        <div class="game-counter counter1 text-center">
           <h2 class="gradient-title">01</h2>
           <h3>register</h3>
           <p>Download the app and signup for account</p>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="game-counter text-center">
+        <div class="game-counter counter2 text-center">
           <h2 class="gradient-title">02</h2>
           <h3>get ready</h3>
           <p>Deposit & get ready for play betting</p>
@@ -101,7 +108,7 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="game-counter text-center">
+        <div class="game-counter counter3 text-center">
           <h2 class="gradient-title">03</h2>
           <h3>enjoy</h3>
           <p>Betting more and more & enjoy game</p>
@@ -166,15 +173,15 @@
 <section id="free-spin">
   <div class="container">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-6 order-2 order-lg-1 order-md-1">
         <div class="free-spin-img">
-          <img src="images/free-spin-img.png" alt="free-spin-img">
+          <img class="img-fluid w-90" src="images/free-spin-img.png" alt="free-spin-img">
         </div>
       </div>
-      <div class="col-lg-6">
-        <div class="free-spin-text text-start">
+      <div class="col-lg-6 col-md-6 order-1 order-lg-2 order-md-2">
+        <div class="free-spin-text text-center text-lg-start">
          
-            <header class="heading text-start text-capitalize">
+            <header class="heading text-center text-lg-start text-capitalize">
               <h2 class="gradient-title">unlock free spin</h2>
             </header>
          
@@ -202,9 +209,9 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="pricing-item itm1 text-center text-white">
-          <div class="head "><p class="m-0">featured</p></div>
+          <div class="head text-center"><p class="m-0">featured</p></div>
           <div class="title"><h1>trial plan</h1></div>
           <div class="price"><h2 class="m-0">0.00</h2> <p><span class="text-uppercase">usd</span> / <span class="text-capitalize">per month</span></p></div>
           <div class="middle">
@@ -220,7 +227,7 @@
           <a href="#" class="play">choose now</a>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="pricing-item itm1 text-center text-white">
           <div class="head"><p class="m-0">featured</p></div>
           <div class="title"><h1>trial plan</h1></div>
@@ -238,7 +245,7 @@
           <a href="#" class="play">choose now</a>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4">
         <div class="pricing-item itm1 text-center text-white">
           <div class="head"><p class="m-0">featured</p></div>
           <div class="title"><h1>trial plan</h1></div>
@@ -335,7 +342,7 @@
 <section id="payment">
   <div class="container">
     <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-6 col-md-6">
       <div class="search">
         <header class="heading">
           <h2 class=" text-capitalize text-white">subscribe for offers</h2>
@@ -346,7 +353,7 @@
         </form>
       </div>
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 col-md-6">
       <div class="pay-option">
         <header class="heading">
           <h2 class=" text-capitalize text-white">payment method</h2>
@@ -372,10 +379,11 @@
 
 
  <!-- <<< ==== footer starts ==== >>> -->
+ 
 <section id="footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 order-3 order-lg-1 ">
         <div class="about">
           <header class="heading">
             <h2 class=" text-capitalize text-white">about jackpot</h2>
@@ -389,7 +397,7 @@
         </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 order-1 order-lg-2 ">
         <div class="links">
           <header class="heading">
             <h2 class=" text-capitalize text-white">important links</h2>
@@ -405,7 +413,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 order-2 order-lg-3 ">
         <div class="security">
           <header class="heading">
             <h2 class=" text-capitalize text-white">security info</h2>
@@ -430,22 +438,32 @@
  <!-- <<< ==== footer ends ==== >>> -->
 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
+ 
+ <!-- <<< ==== back to  top starts ==== >>> -->
+<div class="back-to">
+  <i class="fas fa-chevron-up"></i>
+</div>
 
-
-
-
-
-
-
-
-
+ <!-- <<< ==== back to  top ends ==== >>> -->
 
 
 
 
     <!-- jquery link -->
     <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- countdown js -->
     <script src="js/jquery.countdown.min.js"></script>
 
     <!-- <script src="jquery.mousewheel.min.js"></script>
@@ -453,8 +471,7 @@
     <script src="js/jquery.mCustomScrollbar.min.js"></script> -->
     <!-- bootstrap js link -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-    <script src="jquery.counterup.min.js"></script>
+    <!-- slick js  -->
     <script src="js/slick.min.js"></script>
 
 

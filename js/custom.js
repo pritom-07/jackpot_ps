@@ -1,7 +1,36 @@
 $(document).ready(function(){
 
 
+// nav js
 
+  var remove = $('.nav-link').click(function(){
+      remove.removeClass('active');
+      $(this).addClass('active');
+  });
+
+  $(window).scroll(function(){
+      var scrolling = $('body,html').scrollTop();
+      if(scrolling > 50){
+          $('.navbar').addClass("sticky");
+          $('.back-to').slideDown();
+
+      }
+      else{
+        $('.navbar').removeClass("sticky");
+        $('.back-to').slideUp();
+      }
+  });
+
+
+  // back to top js
+  $('.back-to').click(function(){
+    $('body,html').scrollTop({
+      top:0,
+      
+    },1500);
+  });
+
+ 
 
 
 
@@ -40,22 +69,9 @@ var faq4 = $("#faq .faq-4 ").click(function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 // countdown section js plugin
 
-$('.getting-started').countdown('2021/10/10', function(event) {
+$('.getting-started').countdown('2022/10/10', function(event) {
     $(this).html(event.strftime(' %H:%M:%S'));
     $(this).html(event.strftime('<div class="single-counter">%H<span>hours</span></div> <div class="single-counter">%M<span>mins</span></div> <div class="single-counter">%S<span>secs</span></div> '));
   });
@@ -70,23 +86,6 @@ $('.getting-started').countdown('2021/10/10', function(event) {
         
 //         }
 // });
-
-
-    
-
-
-
-
-
-
-
-
-    
-    
-
-
-
-
 
 
 
@@ -113,6 +112,32 @@ $('.getting-started').countdown('2021/10/10', function(event) {
         slidesToScroll:1,
         autoplay:true,
         autoplaySpeed:2000,
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                infinite: true,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              }
+            }
+            
+          ]
         
 
     });

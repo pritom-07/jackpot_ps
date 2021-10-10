@@ -1,0 +1,308 @@
+/* <<<<<<--=================
+ extra small devices starts
+=====================-->>>>>>>.*/
+@media (max-width:575.98px) {
+    
+    
+    /* ==== nav css starts ===== */
+    nav .navbar-brand{
+        width: 50% !important;
+    }
+    
+    nav .navbar-brand img{
+        width: 100% !important;
+    }
+    
+    nav .btn1,
+    nav .btn2{
+        padding: 0px 25px;
+    }
+    
+    /* ==== nav css ends ===== */
+
+    /* ==== banner css starts ===== */
+    
+    #banner .banner-text h1{
+        font-size: 200px;
+        margin-top: -20px !important; 
+    }
+    
+    #banner .banner-item{
+        background:none;
+        padding-top: 70px;
+    }
+    #banner .banner-text p{
+        padding:0px 5px !important;
+        text-align: center !important;
+    }
+    
+    #banner .banner-text a {
+        margin-left: 0px;
+        margin-top: 34px;
+        line-height: 40px;
+        padding:0px 35px;
+        
+    }
+
+    /* ==== banner css ends ===== */
+
+
+    /* ==== games css starts ===== */
+    
+    #games .heading h2 {
+        font-size: 35px;
+        
+    }
+    
+    #games .game-overlay .overlay-text a{
+        line-height: 45px;
+        padding:0px 35px
+    }
+    
+    #games .game-item {
+        margin-right:0;
+        margin-left: 0;
+        
+    }
+    
+    /* ==== games css ends ===== */
+
+
+    /* ==== free spin css starts ===== */
+    
+    #free-spin .free-spin-img img{
+        width: 100% !important;
+    }
+    
+    #free-spin .free-spin-text header {
+        padding-bottom: 20px;
+        padding-top: 65px;
+    }
+    
+    #free-spin .free-spin-text p{
+        text-align: justify;
+    }
+    #free-spin .free-spin-text p:last-of-type {
+        padding-bottom: 30px !important;
+    }
+    
+    #free-spin .free-spin-text a{
+        line-height: 40px;
+        padding:0px 35px
+    }
+    
+    /* ==== free spin css ends ===== */
+
+
+    /* ==== pricing  css starts ===== */
+    #pricing .pricing-item .head p {
+        
+        padding: 15px 100px !important;
+        
+    }
+    
+    #pricing .pricing-item a{
+        line-height: 40px;
+        padding:0px 35px
+    }
+    
+    
+    /* ==== pricing  css ends ===== */
+
+
+    /* ==== faq  css starts ===== */
+    
+    #faq {
+        padding-top: 50px;
+       
+    }
+    
+    
+    
+    #faq .tournaments-text .time .counter{
+        margin-left: 5px;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+    }
+    #faq .tournaments-text .time li .getting-started .single-counter{
+        width: 60px;
+        height: 60px;
+        margin-right: 5px;
+        
+    }
+    /* ==== faq  css ends ===== */
+
+    /* ==== payment  css starts ===== */
+
+    #payment .search form input{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    #payment .search form button{
+        width: 10%;
+    }
+    
+    #payment .pay-option .pay-img img{
+        margin-bottom: 30px;
+    }
+    
+    /* ==== payment  css ends ===== */
+
+
+    /* ==== footer  css starts ===== */
+    
+    #footer .security .security-text ul li p{
+        padding-right: 0 !important;
+    }
+    
+    /* ==== footer  css ends ===== */
+
+}
+
+/* <<<<<<--=================
+ extra small devices ends
+=====================-->>>>>>>.*/
+
+/* <<<<<<--=================
+  small devices starts
+=====================-->>>>>>>.*/
+@media (min-width:576px) and (max-width:767.98px) {
+    
+
+    /* ==== banner css starts ===== */
+    
+    #banner .banner-item{
+        background:none;
+      
+    }
+    #banner .banner-text p{
+        padding:0px 5px !important;
+        text-align: center !important;
+    }
+    
+    #banner .banner-text a {
+        margin-left: 0px;
+       
+        
+    }
+
+    /* ==== banner css ends ===== */
+
+
+    /* ==== free spin css starts ===== */
+    
+    
+    #free-spin .free-spin-text header {
+        padding-bottom: 20px;
+        padding-top: 65px;
+    }
+    
+    #free-spin .free-spin-text p{
+        text-align: justify;
+    }
+    #free-spin .free-spin-text p:last-of-type {
+        padding-bottom: 30px !important;
+    }
+    
+
+    
+    /* ==== free spin css ends ===== */
+
+
+    /* ==== payment css starts ===== */
+
+    
+    #payment .search form input{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    #payment .search form button{
+        width: 10%;
+    }
+    
+    #payment .pay-option .pay-img img{
+        margin-bottom: 30px;
+    }
+    
+    /* ==== payment css ends ===== */
+    
+    
+}
+
+/* <<<<<<--=================
+  small devices ends
+=====================-->>>>>>>.*/
+
+
+/* <<<<<<--=================
+  medium devices starts
+=====================-->>>>>>>.*/
+@media (min-width:768px) and (max-width:991.98px) {
+    /* ==== banner css starts ===== */
+    
+    #banner .banner-item{
+        background:none;
+      
+    }
+    #banner .banner-text p{
+        padding:0px 5px !important;
+        text-align: center !important;
+    }
+    
+    #banner .banner-text a {
+        margin-left: 0px;
+       
+        
+    }
+
+    /* ==== banner css ends ===== */
+
+    #free-spin .free-spin-text header {
+        padding-bottom: 30px;
+        padding-top: 107px;
+    }
+
+    #free-spin .free-spin-text p {
+        text-align: justify;
+        padding-bottom: 0px !important;
+    }
+    #free-spin .free-spin-text p:last-of-type {
+        padding-bottom: 30px !important;
+    }
+
+    #pricing .pricing-item .head p {
+        padding: 15px 67px !important;
+        
+    }
+
+    #pricing .pricing-item a {
+        padding: 0px 20px;
+
+    }
+
+    #payment .search form input {
+        width: 90%;
+      
+    }
+
+    #payment .search form button{
+        width: 10%;
+    }
+
+    #payment .pay-option .pay-img img {
+        margin-right: 4px;
+       
+    }
+
+
+}
+
+/* <<<<<<--=================
+  medium devices ends
+=====================-->>>>>>>.*/
+
