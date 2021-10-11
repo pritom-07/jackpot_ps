@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  // preloader js
+  $(window).load( function(){
+    $('.preloader').fadeOut();
+  });
 
 // nav js
 
